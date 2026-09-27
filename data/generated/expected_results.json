@@ -1,0 +1,14 @@
+{
+  "seed": 20260927,
+  "as_of_date": "2026-09-01",
+  "row_counts": {
+    "accounts": 6,
+    "sales_reps": 3,
+    "opportunities": 12,
+    "invoices": 12,
+    "shipments": 12
+  },
+  "open_pipeline_usd": 315000,
+  "outstanding_ar_usd": 38500,
+  "late_shipments": 2
+}

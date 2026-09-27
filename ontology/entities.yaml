@@ -1,0 +1,30 @@
+entities:
+  Account:
+    key: account_id
+    meaning: A fictional customer organization, reconciled across CRM and ERP.
+    physical_sources: [accounts.csv]
+  SalesRep:
+    key: sales_rep_id
+    meaning: The person responsible for an account relationship.
+    physical_sources: [sales_reps.csv]
+  Opportunity:
+    key: opportunity_id
+    meaning: A potential sale with a stage, expected close date, and proposed value.
+    physical_sources: [opportunities.csv]
+  Invoice:
+    key: invoice_id
+    meaning: A billed amount and the amount already paid.
+    physical_sources: [invoices.csv]
+  Shipment:
+    key: shipment_id
+    meaning: A delivery against a promised date.
+    physical_sources: [shipments.csv]
+relationships:
+  - Account is owned by SalesRep
+  - Opportunity belongs to Account
+  - Invoice is billed to Account
+  - Shipment is delivered to Account
+metrics:
+  open_pipeline_usd: Sum of opportunity amount where stage is not Closed Won.
+  outstanding_ar_usd: Sum of invoice amount minus paid amount.
+  late_shipments: Count of shipments delivered after their promised date.

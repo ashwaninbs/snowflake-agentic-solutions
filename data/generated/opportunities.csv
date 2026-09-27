@@ -1,0 +1,13 @@
+opportunity_id,account_id,opportunity_name,stage,amount_usd,close_date
+O001,A001,Aster Medical expansion 1,Discovery,30000,2026-09-16
+O002,A001,Aster Medical expansion 2,Proposal,46000,2026-09-28
+O003,A002,Blue Peak Retail expansion 1,Proposal,19000,2026-09-25
+O004,A002,Blue Peak Retail expansion 2,Negotiation,19000,2026-10-07
+O005,A003,Cedar Industrial expansion 1,Negotiation,38000,2026-10-04
+O006,A003,Cedar Industrial expansion 2,Closed Won,21000,2026-10-16
+O007,A004,Delta Foods expansion 1,Closed Won,26000,2026-10-13
+O008,A004,Delta Foods expansion 2,Discovery,44000,2026-10-25
+O009,A005,Evergreen Transit expansion 1,Discovery,15000,2026-10-22
+O010,A005,Evergreen Transit expansion 2,Proposal,23000,2026-11-03
+O011,A006,Fable Energy expansion 1,Proposal,54000,2026-10-31
+O012,A006,Fable Energy expansion 2,Negotiation,27000,2026-11-12
